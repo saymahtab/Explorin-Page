@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Explorin Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img height="45" src="data:image/jpeg;base64,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" alt="logo-icon">
+        <p class="logo-name">Explorin <span>Academy</span></p>
+      </div>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#progress">Progress</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="resume-button">Resume</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home-container">
+        <div class="left-side">
+          <div class="intro">
+            <h2 class="name">Hi, I am Mr Assignment</h2>
+            <p class="quote">
+              An integral part of your success at <span>Explorin Academy</span>
+            </p>
+          </div>
+          <p class="info">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue diam,
+            quam euismod hac in id mauris, scelerisque. Fringilla amet, morbi
+            ultricies risus aliquet tristique viverra nisi, mi. Lorem ipsum
+            dolor, sit amet consectetur.
+          </p>
+        </div>
+        <div class="right-side">
+          <div class="right-side-image"></div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>My <span>Skills</span></h2>
+        <p>
+          Here are some of my skills on which I have been working on for the
+          past 2 years.
+        </p>
+        <div class="skills-container">
+          <img src="/assets/skills.png" alt="" />
+        </div>
+      </section>
+
+      <section id="progress">
+        <div class="progress-info">
+          <h2>My Video <span>Progress</span></h2>
+          <p>Here is a quick demo of my progress so far in Web Development!</p>
+        </div>
+        <div class="youtube-vedios">
+          <button class="linkedin-button">Visit my Linkedin</button>
+          <img height="350" src="/assets/youtube-vedio-dummy.png" alt="" />
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="projects-info">
+          <h2>Projects</h2>
+          <p>I have worked on a wide range of projects. Here are some of my projects.</p>
+        </div>
+        <div class="project-container">
+          <img height="450" src="/assets/dummy-projects.png" alt="" />
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="education-info">
+          <h2>Education</h2>
+          <p>I have worked on a wide range of projects. Here are some of my projects.</p>
+        </div>
+        <div class="education-container">
+          <img height="350" src="/assets/college.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section id="contact">
+        <div class="contact-info">
+          <h2>Contact</h2>
+          <p>Feel free to reach out to me for any questions or opportunities!</p>
+        </div>
+        <div class="contact-container">
+          <img height="50" src="/assets/links.png" alt="" />
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
