@@ -304,39 +304,3 @@ header {
 .contact-info p {
   font-size: 1.5rem;
 }
-
-@media only screen and (max-width: 600px) {
-  
-  header {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .logo-name {
-    font-size: 10px;
-  }
-  nav ul li{
-    display: none;
-  }
-  .intro {
-    font-size: 1rem;
-  }
-
-  .right-side-image {
-    display: none;
-  }
-  .skills-container {
-    display: none;
-  }
-  .youtube-vedios img {
-    display: none;
-  }
-  .project-container {
-    display: none;
-  }
-  .education-container {
-    display: none;
-  }
-  .contact-container img {
-    height: 20px;
-  }
-}
